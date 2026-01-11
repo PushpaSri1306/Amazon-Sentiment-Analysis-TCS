@@ -24,7 +24,7 @@ The **Customer Review Sentiment Analyzer** is a Streamlit-based tool designed fo
 https://amazon-sentiment-analysis-tcs-c9rngerxejctxux6f96kle.streamlit.app/
 
 ## 💻 GitHub Repository:
-https://github.com/Puttapushpasri/Amazon-Sentiment-Analysis-TCS
+https://github.com/PushpaSri1306/Amazon-Sentiment-Analysis-TCS
 
 # Features
 - **Real-time Prediction** – Classifies input text instantly using a trained Logistic Regression model.
@@ -33,26 +33,46 @@ https://github.com/Puttapushpasri/Amazon-Sentiment-Analysis-TCS
 - **Confidence Visualization** – Shows the model's certainty for the predicted sentiment.
 - **Clean UI** – Built with an interactive and responsive Streamlit interface.
 
-# Installation
+Project Setup & Execution
+To get the Amazon Sentiment Analysis project running locally, follow these steps in your terminal:
 
-1. **Clone the repository**
-```bash
-git clone [https://github.com/ShaikAbdulRazak/Amazon-Sentiment-Analysis-TCS.git](https://github.com/ShaikAbdulRazak/Amazon-Sentiment-Analysis-TCS.git)
+1.**Clone the Repository:**
+
+Bash
+
+git clone https://github.com/PushpaSri1306/Amazon-Sentiment-Analysis-TCS.git
 cd Amazon-Sentiment-Analysis-TCS
-2. pip install -r requirements.txt
-3. streamlit run app.py
+Install Dependencies:
 
-# **Technologies Used**
+2.Bash
 
-1.Python – Core programming language.
-2.Streamlit – Web application framework for UI.
-3.Scikit-learn – Machine Learning (Logistic Regression, TF-IDF).
-4.NLTK – Natural Language Toolkit for text preprocessing.
-5.Pandas – Data manipulation.
-6.Pickle – Model serialization and saving.
+pip install -r requirements.txt
+Run the Application:
+
+3.Bash
+
+streamlit run app.py
+
+# Technologies Used
+The project leverages a robust stack of Python libraries for data processing and machine learning:
+
+**Python**: The core programming language.
+
+**Streamlit**: Used to build the interactive web interface.
+
+**Scikit-learn**: Powers the Machine Learning components (Logistic Regression and TF-IDF vectorization).
+
+**NLTK (Natural Language Toolkit)**: Handles text preprocessing like tokenization and stop-word removal.
+
+**Pandas**: Used for data manipulation and analysis.
+
+**Pickle**: Used for model serialization (saving and loading the trained model).
 
 # Future Enhancements
+To take this project to the next level, the following features are planned:
 
-**Deep Learning**: Implementing BERT or Transformers for higher accuracy.
-**Multi-language**: Expanding support for non-English Amazon reviews.
-**Batch Processing**: Allowing users to upload a CSV file for bulk sentiment analysis.
+**Deep Learning**: Implementing BERT or Transformers to achieve higher prediction accuracy.
+
+**Multi-language Support**: Expanding the model to analyze non-English Amazon reviews.
+
+**Batch Processing**: Adding a feature that allows users to upload a CSV file for bulk sentiment analysis instead of one-by-one entries.
