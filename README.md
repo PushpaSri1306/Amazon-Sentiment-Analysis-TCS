@@ -42,7 +42,7 @@ cd Amazon-Sentiment-Analysis-TCS
 2. pip install -r requirements.txt
 3. streamlit run app.py
 
-# Technologies Used
+# **Technologies Used**
 
 1.Python – Core programming language.
 2.Streamlit – Web application framework for UI.
